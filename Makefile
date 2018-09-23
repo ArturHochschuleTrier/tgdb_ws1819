@@ -1,3 +1,5 @@
+VERSION := $(or ${VERSION},${VERSION},"")
+
 # Docker Image
 IMAGE := volkerraschek/docker-latex:latest
 
@@ -7,8 +9,8 @@ TEX_NAME := ${FILE}.tex
 PDF_NAME := ${FILE}.pdf
 
 # Hardlink-Path and Hardlink-File
-HARDLINK_PATH := ${HOME}/pdf
-HARDLINK_FILE := tmp.pdf
+HARDLINK_PATH := ~/Dokumente/Studium/Fachschaftdaten/DB_1_-_Grundlagen_Datenbanken/Tutorien/Tutorium_WS1819
+HARDLINK_FILE := Tutorium_WS1819.pdf
 
 latexmk:
 	latexmk \
