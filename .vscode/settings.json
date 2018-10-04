@@ -1,11 +1,12 @@
 {
-  "editor.detectIndentation": true,
+  "editor.detectIndentation": false,
   "editor.insertSpaces": true,
   "editor.minimap.enabled": false,
   "editor.renderWhitespace": "boundary",
   "editor.tabSize": 2,
   "editor.trimAutoWhitespace": true,
   "editor.wordWrap": "on",
+  "files.encoding": "utf8",
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
 }
